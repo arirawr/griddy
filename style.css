@@ -1,0 +1,58 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  background-color: #aaa;
+  color: #ccc; }
+
+/* TYPE */
+h1 {
+  margin: 0;
+  font-family: "Helvetica Neue";
+  font-size: 250;
+  text-align: center;
+  text-transform: uppercase; }
+
+/* GRID */
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+[class*='row']:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.row-full {
+  width: 100%;
+  clear: both;
+  border: 1px red solid; }
+
+.row-md {
+  width: 70%;
+  clear: both;
+  border: 1px red solid; }
+
+.col-50 {
+  width: 50%;
+  float: left;
+  border: 1px blue solid; }
+
+/* PADDING */
+.pad-2 {
+  padding: 2% 5%; }
+
+.pad-1 * {
+  margin: 3%; }
+
+/* ALIGNMENT */
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; }
+  .center > * {
+    text-align: left; }
+
+/*# sourceMappingURL=style.css.map */
