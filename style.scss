@@ -31,6 +31,11 @@ h1 {
 
 //rows
 
+[class*='row'] {
+	display: flex;
+	clear: both;
+}
+
 [class*='row']:after {
 	content: "";
 	display: table;
@@ -39,13 +44,11 @@ h1 {
 
 .row-full {
 	width: 100%;
-	clear: both;
 	border: 1px red solid;
 }
 
 .row-md {
 	width: 70%;
-	clear: both;
 	border: 1px red solid;
 }
 
