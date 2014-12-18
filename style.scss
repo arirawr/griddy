@@ -31,6 +31,8 @@ h1 {
 
 //rows
 
+//TODO: justify-content
+
 [class*='row'] {
 	display: flex;
 	clear: both;
@@ -58,6 +60,12 @@ h1 {
 	border: 1px blue solid;
 }
 
+.col-25 {
+	width: 25%;
+	float: left;
+	border: 1px blue solid;
+}
+
 
 
 /* PADDING */
@@ -67,7 +75,7 @@ h1 {
 }
 .pad-1 {
 	* {
-	margin: 3%;
+	margin: 1% 3%;
 	}
 }
 
